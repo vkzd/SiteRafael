@@ -1,0 +1,154 @@
+/* Backgrounds com baixo brilho*/
+
+.bg-img-home{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("imgs/bg-home.jpg");
+    background-size: 100% ;
+}
+
+.bg-img-titulos{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("imgs/background.jpg");
+    background-size: 100% ;
+}
+
+.bg-img-elenco{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("imgs/background.jpg");
+    background-size: 100% ;
+}
+
+.bg-img-arena{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("imgs/bg-arena.jpg");
+    background-size: 100% ;
+}
+
+.bg-img-sorteio{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("imgs/background.jpg");
+    background-size: 100% ;
+}
+
+/* Barra de Navegação */
+.navbar {
+    background-color: rgb(46, 46, 46) !important    ; 
+    color: black; 
+}
+
+.nav-link{
+    font-size: bold !important;
+    color: white !important;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.active {
+    font-size: bold;
+    color: rgb(165, 165, 165) !important;
+}
+
+.nav-item {
+
+    border: none;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0 45px;
+}
+
+
+/* Font Poppins */
+.poppins-semibold {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.poppins-bold {
+    font-family: "Poppins", sans-serif!important;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+
+  /* Footer */
+
+footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  rgb(46, 46, 46);
+    color: #ffffff;
+    box-sizing: border-box;
+    margin: 50px auto 0px auto;
+    font-family: "Poppins", sans-serif!important;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+    
+  }
+
+.footer {
+    margin: 15px auto;
+}
+
+/* Container Home */
+
+.container {
+    width: 60%;
+    background-color: rgb(104, 104, 104);
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 0 rgba(0, 0, 0, 0.9);
+}
+
+.display-5{
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    padding: 20px;
+    background-color: rgb(104, 104, 104);
+    margin: auto auto;
+    border-bottom: solid #000;
+    border-top: solid #000;
+ }
+
+.content {
+    color: #ffffff;
+    font-weight: 200;
+    padding: 10px 40px 10px 40px;
+    font-size: 30px;
+}
+
+/* Imagens */
+
+.img-fluid{
+    border: none;
+    display: flex;
+    margin: 50px auto 10px;
+    box-sizing: border-box;
+    width: 400px;
+    
+}
+
+.img {
+    border: none;
+    display: flex;
+    margin: 50px auto;
+    height: 600px;
+}
+
+.img-fluid2{
+    border: none;
+    display: flex;
+    margin: 50px auto;
+    box-sizing: border-box;
+    width: 350px;
+}
+
+.img2 {
+    border: none;
+    display: flex;
+    margin: 50px auto;
+    height: 600px!important;
+    
+}

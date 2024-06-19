@@ -6,7 +6,7 @@
 }
 
 .bg-img-titulos{
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("imgs/background.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("imgs/bg-titulos.webp");
     background-size: 100% ;
 }
 
@@ -66,6 +66,18 @@
   }
 
 
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 483;
+  font-style: normal;
+}
+  
+ 
+
+
+
   /* Footer */
 
 footer {
@@ -92,7 +104,7 @@ footer {
 /* Container Home */
 
 .container {
-    width: 60%;
+    width: 80% !important;
     background-color: rgb(104, 104, 104);
     justify-content: center;
     margin-right: auto;
@@ -118,6 +130,7 @@ footer {
     padding: 10px 40px 10px 40px;
     font-size: 30px;
 }
+
 
 /* Imagens */
 
@@ -151,4 +164,50 @@ footer {
     margin: 50px auto;
     height: 600px!important;
     
+}
+
+/* Aba de Títulos*/
+
+.list-group {
+    background-color: rgb(104, 104, 104);    
+    width: 750px !important;
+    color: rgb(104, 104, 104);
+    display: grid;
+    border: none;
+}
+
+.list-group-item {
+    background-color: rgb(104, 104, 104);
+}
+
+.list-group-border {
+    background-color: rgb(104, 104, 104);
+    border: gray solid;
+}
+
+.li {
+    background-color: rgb(104, 104, 104)    ;
+}
+
+.title-lista {
+    color: #FFF;
+    align-items: center !important;
+    font-size: xx-large;
+    width: 100%;
+    justify-content: center !important;
+    display: grid;
+    font-weight: bolder;
+    font-family: raleway;
+    padding-top: 10px;
+}
+
+h4 {
+    padding: 15px;
+    justify-self: center !important;
+    display: grid !important;
+    color: #fff;
+}
+
+#lista-titulos {
+    background-color: rgb(165, 165, 165) !important;
 }

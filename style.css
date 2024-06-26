@@ -11,7 +11,7 @@
 }
 
 .bg-img-elenco{
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("imgs/background.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("imgs/bg-elenco.jpg");
     background-size: 100% ;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .bg-img-sorteio{
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("imgs/background.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("imgs/bg-sorteio.png");
     background-size: 100% ;
 }
 
@@ -210,4 +210,77 @@ h4 {
 
 #lista-titulos {
     background-color: rgb(165, 165, 165) !important;
+}
+
+/* Tabela elenco */
+
+.tabela th {
+    background-color: rgb(104, 104, 104) !important; /* Cor de fundo do cabeçalho */
+    color: #fff !important; /* Cor do texto do cabeçalho */
+    font-size: large;
+}
+
+.tabela td {
+    background-color: rgb(104, 104, 104) !important; /* Cor de fundo do cabeçalho */
+    color: #fff !important; /* Cor do texto do cabeçalho */
+    font-size: x-large;
+}
+
+.rounded {
+    margin-left: 55px !important;
+}
+
+.title-elenco {
+    background-color: rgb(104, 104, 104);
+    border: none 1px white;
+    color: white;
+    width: 600px;
+    padding: 10px;
+    margin-top: 70px;
+    align-content: center;
+    display: grid;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.bi-caret-right-fill {
+    width: 15px !important;
+}
+
+
+/*Forms*/
+
+.container-form {
+    color: white !important;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+label {
+    color: white;
+    padding: 10px;
+    font-family: raleway;
+    font-size: larger;
+    
+}
+
+input {
+    border: none;
+}
+
+input:empty {
+    opacity: 1;
+
+}
+
+input:focus {
+    opacity: 1;
+}
+
+
+.btn {
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 0;
 }
